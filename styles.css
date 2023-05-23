@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  /* background-color: #f1f1f5; */
+  background-image: url("https://img.freepik.com/free-vector/musical-pentagram-sound-waves-notes-background_1017-33911.jpg?w=1060&t=st=1684480332~exp=1684480932~hmac=47b24d893e93e899d5328be913e213e479c6114c11e2b76c7a16df9057b53fe8" ) ;
+  /* background-repeat: no-repeat; */
+  opacity: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #cbe995;
+  font-family: "sans-seriff", cursive;
+  text-shadow: 0.3rem 0 #DA0463;
+
+}
+
+footer {
+  color: #e51a1a;
+  font-family: sans-serif;
+}
+
+.w {
+    background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/kick.png");
+}
+
+.s {
+  background-image: url("images/crash.png");
+
+}
+
+.d {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.l {
+  background-image: url("images/tom3.png");
+}
+
+.j {
+  background-image: url("images/tabla.jpg");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 1px solid #0f0f0f;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #b5cb39;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(183, 206, 189);
+  cursor: pointer;
+}
+
+/* .drum:hover{
+  background-color: #111111;
+ } */
+
+  .drum:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+  /* Lowering the shadow */
+ } 
