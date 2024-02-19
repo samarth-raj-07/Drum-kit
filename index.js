@@ -1,10 +1,12 @@
 // This method of loop is better than repeating same no. 7 times.
 for(var i=0;i<document.querySelectorAll(".drum").length;i++){     //we used class in queryselector
     document.querySelectorAll(".drum")[i].addEventListener("click",function (){
-        // this.style.color="purple";
+        // this.style.color="red";
         // setTimeout(function(){
         //     this.style.color="yellow";
         // },100)
+
+        
         var buttonname =this.innerHTML;
         switch (buttonname) {
             case "w":
